@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Validate checkbox
         if (!checkbox.checked) {
-            alert('You must agree to receive marketing emails.');
+            confirm('You must agree to receive marketing emails.');
             valid = false;
         }
 
