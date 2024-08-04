@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pincode Checker</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <main>
+        <div class="form-container">
+            <form id="pincode-form">
+            <header>
+                <h1>Checkout</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur amet, fermentum lorem.</p>
+            </header>
+            <div class="names">
+                <fieldset>
+                    <legend>First Name <span style="color: red;">*</span></legend>
+                    <input type="text" id="firstName" placeholder="Your Name" required>
+                    <div id="firstNameError" class="error"></div>
+                </fieldset>
+                <fieldset>
+                    <legend>Last Name <span style="color: red;">*</span></legend>
+                    <input type="text" id="lastName" placeholder=" Your last name" required>
+                    <div id="lastNameError" class="error"></div>
+                </fieldset>
+            </div>
+            <fieldset class="email-input">
+                <legend>Email <span style="color: red;">*</span></legend>
+                <input type="email" id="email" placeholder="yourmail@gmail.com" required>
+                <div id="emailError" class="error"></div>
+            </fieldset>
+            <fieldset>
+                <legend>Pincode <span style="color: red;">*</span></legend>
+                <input type="text" id="pincode" placeholder="123456" required>
+                <div id="pincodeError" class="error"></div>
+            </fieldset>
+            <checkbox-container>
+                <input type="checkbox" id="checkbox" name="checkbox" required="">
+                <p class="footer-text">Stay updated with our latest products, exclusive offers, and special promotions by opting in to receive marketing emails from us. You can unsubscribe at any time.</p>
+            </checkbox-container>
+            <div class="button-container">
+                <button type="submit">Enter</button>
+            </div>
+        </form>
+      </div>
+        <div id="result" class="result"></div>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" id="close-popup">&times;</span>
+                <div id="userDetails" class="user-details"></div>
+                <div id="apiDetails" class="api-details"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
