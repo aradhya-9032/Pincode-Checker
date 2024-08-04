@@ -194,9 +194,7 @@ button {
 }
 
 @media (max-width: 480px) {
-    .form-container{
-        margin-top: 80px;
-    }
+    
     .popup-content {
         margin: 25% auto;
         padding: 10px;
