@@ -23,8 +23,8 @@ text-align: center;
 }
 .form-container{
     position: relative;
-    width: 380px;
-    height: 545px;
+    width: 385px;
+    height: 567px;
     background-color: white;
     color: black;
     padding: 50px;
@@ -33,7 +33,7 @@ text-align: center;
 }
 #pincode-form{
     position: relative;
-    top: -20px;
+    top: -35px;
 }
 fieldset{
     margin: 10px;
